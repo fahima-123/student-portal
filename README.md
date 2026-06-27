@@ -18,7 +18,7 @@ Built with React + TypeScript + Tailwind CSS.
 - **Build Tool**: Vite
 
 ## Live Demo
-🚀 **Live App**: [student-portal-xxxxx.bolt.host](https://your-bolt-link-here.bolt.host)
+🚀 **Live App**: https://student-portal-web-a-iibu.bolt.host
 
 ## How to Run Locally
 ```bash
