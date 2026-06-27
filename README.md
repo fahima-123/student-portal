@@ -1,38 +1,26 @@
-{
-  "name": "vite-react-typescript-starter",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "typecheck": "tsc --noEmit -p tsconfig.app.json"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.57.4",
-    "jspdf": "^4.2.1",
-    "jspdf-autotable": "^5.0.8",
-    "lucide-react": "^0.344.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^7.18.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.9.1",
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.18",
-    "eslint": "^9.9.1",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.11",
-    "globals": "^15.9.0",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^8.3.0",
-    "vite": "^5.4.2"
-  }
-}
+# Student Canteen Portal 🍽️
+
+A separate student-facing web application for Canteen Token Management System. 
+Built with React + TypeScript + Tailwind CSS.
+
+## Features
+- **Student Registration/Login**: Secure signup with email, roll number, department
+- **Wallet System**: View balance, add money, transaction history  
+- **Token Purchase**: Buy breakfast/lunch/snacks tokens online
+- **QR Code**: Generate QR for canteen counter verification
+- **Real-time Balance**: Auto-update after every transaction
+
+## Tech Stack
+- **Frontend**: React 18, TypeScript, Tailwind CSS
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
+- **State**: React Context API
+- **Build Tool**: Vite
+
+## Live Demo
+🚀 **Live App**: [student-portal-xxxxx.bolt.host](https://your-bolt-link-here.bolt.host)
+
+## How to Run Locally
+```bash
+npm install
+npm run dev
